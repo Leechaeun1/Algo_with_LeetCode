@@ -4,4 +4,3 @@ class Solution(object):
         for n in nums:
             a,b=b,max(n+a, b)
         return b
-        
