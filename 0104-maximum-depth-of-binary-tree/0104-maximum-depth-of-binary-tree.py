@@ -1,5 +1,5 @@
 class Solution:
-    def maxDepth(self, root): # root 매개변수에서 타입 힌트 제거
+    def maxDepth(self, root): 
         # 트리가 비어있다면 깊이는 0
         if not root:
             return 0
